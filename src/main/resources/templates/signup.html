@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>signUp</title>
+</head>
+<body>
+<h1>Signup User Information</h1>
+    <form id =form method ="post" action ="/signup" enctype="multipart/form-data">
+    <div class ="name">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="first Name" >
+    </div>
+    <div class ="name">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+    </div>
+    <div class ="email">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+    </div>
+    <div class ="mobile">
+        <label for="phone">Telephone:</label>
+        <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    </div>
+    <div class ="PersonalNumber">
+        <label for="personalNumber">Personal Number:</label>
+        <input type="text" id="personalNumber" pattern="[0-9]{8}-[0-9]{4}">
+    </div>
+
+    </form>
+</body>
+</html>
